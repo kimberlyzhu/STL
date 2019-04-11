@@ -1,0 +1,6 @@
+framework module Pods_STLTests {
+  umbrella header "Pods-STLTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
