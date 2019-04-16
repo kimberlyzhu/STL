@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>451304347456-qic540m1jb9br4jeccjltlrrf76q0i9s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.451304347456-qic540m1jb9br4jeccjltlrrf76q0i9s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBlAUsRkHpjx3Eh0WqgSyfM1fepGFX-gBw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>451304347456</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>UCB-Team-Tech.STL</string>
+	<key>PROJECT_ID</key>
+	<string>realtimedatabase-6400c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>realtimedatabase-6400c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:451304347456:ios:78bec313957d1c4f</string>
+	<key>DATABASE_URL</key>
+	<string>https://realtimedatabase-6400c.firebaseio.com</string>
+</dict>
+</plist>

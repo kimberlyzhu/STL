@@ -7,6 +7,7 @@ target 'STL' do
 
   # Pods for STL
 pod 'Charts'
+pod 'Firebase/Core'
 
   target 'STLTests' do
     inherit! :search_paths
