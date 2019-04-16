@@ -1,0 +1,43 @@
+[
+    {
+        "Light": 1,
+        "Power": 16	
+    },
+    {
+        "Light" : 2,
+        "Power": 12
+    },
+    {
+        "Light" : 3,
+        "Power": 43
+    },
+    {
+        "Light" : 4,
+        "Power": 62
+    },
+    {
+        "Light" : 5,
+        "Power" : 27
+    },
+    {
+        "Light" : 6,
+        "Power" : 19
+    },
+    {
+        "Light" : 7,
+        "Power" : 3
+    },
+    {
+        "Light" : 8,
+        "Power" : 7
+    },
+    {
+        "Light" : 9,
+        "Power" : 38
+    },
+    {
+        "Light" : 10,
+        "Power" : 29
+    }
+]
+    
