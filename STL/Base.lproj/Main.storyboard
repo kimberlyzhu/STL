@@ -108,12 +108,24 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UD-Er-6Eg">
+                                <rect key="frame" x="311" y="116" width="90" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="20"/>
+                                <state key="normal" title="Add Light">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="addLightAction:" destination="zs3-my-Zm7" eventType="touchUpInside" id="NdP-rQ-1pg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BQ1-cg-tLM"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="QwC-Bw-NgI"/>
                     <connections>
+                        <outlet property="addLightButton" destination="1UD-Er-6Eg" id="Vow-aj-Y59"/>
                         <outlet property="mapView" destination="cr1-nU-clj" id="zQo-gN-abF"/>
                     </connections>
                 </viewController>
