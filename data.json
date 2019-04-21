@@ -1,43 +1,45 @@
-[
-    {
-        "Light": 1,
-        "Power": 16	
-    },
-    {
-        "Light" : 2,
-        "Power": 12
-    },
-    {
-        "Light" : 3,
-        "Power": 43
-    },
-    {
-        "Light" : 4,
-        "Power": 62
-    },
-    {
-        "Light" : 5,
-        "Power" : 27
-    },
-    {
-        "Light" : 6,
-        "Power" : 19
-    },
-    {
-        "Light" : 7,
-        "Power" : 3
-    },
-    {
-        "Light" : 8,
-        "Power" : 7
-    },
-    {
-        "Light" : 9,
-        "Power" : 38
-    },
-    {
-        "Light" : 10,
-        "Power" : 29
+{
+    "lights": {
+        "a" :{
+             "Light": 1,
+             "Power": 16	
+        },
+        "b": {
+            "Light" : 2,
+            "Power": 12
+        },
+        "c": {
+            "Light" : 3,
+            "Power": 43
+        },
+        "d": {
+            "Light" : 4,
+            "Power": 62
+        },
+        "e": {
+            "Light" : 5,
+            "Power" : 27
+        },
+        "f": {
+            "Light" : 6,
+            "Power" : 19
+        },
+        "g": {
+            "Light" : 7,
+            "Power" : 3
+        },
+        "h": {
+            "Light" : 8,
+            "Power" : 7
+        },
+        "i": {
+            "Light" : 9,
+            "Power" : 38
+        },
+        "j": {
+            "Light" : 10,
+            "Power" : 29
+        }
     }
-]
+}
     
