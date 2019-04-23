@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721D5F96226EB0280036A646 /* LightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721D5F95226EB0280036A646 /* LightModel.swift */; };
 		728A45DA225C3E8E00F002EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A45D9225C3E8E00F002EB /* ViewController.swift */; };
 		728A45DD225C3E8E00F002EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728A45DB225C3E8E00F002EB /* Main.storyboard */; };
 		728A45DF225C3E9100F002EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728A45DE225C3E9100F002EB /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		2C0C736C6016F6213A34E11B /* Pods_STLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D63B3983B17AFF97990ED4B /* Pods-STL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STL.debug.xcconfig"; path = "Target Support Files/Pods-STL/Pods-STL.debug.xcconfig"; sourceTree = "<group>"; };
 		6992368DDCFADCA746974AF5 /* Pods-STLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STLUITests.debug.xcconfig"; path = "Target Support Files/Pods-STLUITests/Pods-STLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		721D5F95226EB0280036A646 /* LightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightModel.swift; sourceTree = "<group>"; };
 		728A45D4225C3E8E00F002EB /* STL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728A45D9225C3E8E00F002EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		728A45DC225C3E8E00F002EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				728A4608225C401700F002EB /* DevicesViewController.swift */,
 				728A4605225C401700F002EB /* MapViewController.swift */,
 				728A4609225C401700F002EB /* GraphViewController.swift */,
+				721D5F95226EB0280036A646 /* LightModel.swift */,
 				728A4606225C401700F002EB /* LightsTableViewController.swift */,
 				728A45D9225C3E8E00F002EB /* ViewController.swift */,
 				728A45DB225C3E8E00F002EB /* Main.storyboard */,
@@ -420,6 +423,7 @@
 				728A460C225C401800F002EB /* LightsTableViewController.swift in Sources */,
 				728A45DA225C3E8E00F002EB /* ViewController.swift in Sources */,
 				728A460F225C401800F002EB /* GraphViewController.swift in Sources */,
+				721D5F96226EB0280036A646 /* LightModel.swift in Sources */,
 				728A460D225C401800F002EB /* AppStruct.swift in Sources */,
 				728A460B225C401800F002EB /* MapViewController.swift in Sources */,
 				728A460E225C401800F002EB /* DevicesViewController.swift in Sources */,
