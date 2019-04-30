@@ -100,7 +100,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDe-Nt-Nnb">
-                                <rect key="frame" x="339" y="114" width="75" height="44"/>
+                                <rect key="frame" x="328" y="114" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.49772050540000001" blue="0.85364718260000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -108,7 +108,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Hd7-Ip-MKo" kind="show" id="gWF-Ih-PEy"/>
+                                    <segue destination="Hd7-Ip-MKo" kind="show" id="ks5-90-qNy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -119,7 +119,6 @@
                     <connections>
                         <outlet property="barChart" destination="JOp-Ql-1oO" id="wnY-Zl-r6P"/>
                         <outlet property="chartTitle" destination="ZSU-Uj-TsH" id="NzE-Nw-HBo"/>
-                        <outlet property="view" destination="UDe-Nt-Nnb" id="HS7-HJ-G5e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iyK-Om-pG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,26 +141,33 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tar-0t-8eV">
-                                <rect key="frame" x="39" y="132" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnL-2r-wHH">
+                                <rect key="frame" x="26" y="116" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="0Lb-i8-h1u" kind="show" id="9AX-hV-h4H"/>
+                                    <action selector="backButton:" destination="Hd7-Ip-MKo" eventType="touchUpInside" id="yK1-RC-99c"/>
+                                    <segue destination="0Lb-i8-h1u" kind="show" id="6oj-46-PQa"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Xd-dl-BJ0" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="20" y="175" width="374" height="646"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QlE-7C-7ve"/>
                     </view>
                     <navigationItem key="navigationItem" id="JqL-UN-i5U"/>
                     <connections>
-                        <outlet property="view" destination="Tar-0t-8eV" id="JMR-Vo-gPE"/>
+                        <outlet property="backButton" destination="GnL-2r-wHH" id="PAX-nt-4zg"/>
+                        <outlet property="lineChartView" destination="5Xd-dl-BJ0" id="Jbr-la-kel"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zIi-z1-90y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1183" y="1002"/>
+            <point key="canvasLocation" x="1182.608695652174" y="1001.7857142857142"/>
         </scene>
         <!--Item-->
         <scene sceneID="KBD-Kh-QvA">
@@ -237,6 +243,6 @@
         <image name="Image-1" width="211.05882263183594" height="209.64706420898438"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9AX-hV-h4H"/>
+        <segue reference="6oj-46-PQa"/>
     </inferredMetricsTieBreakers>
 </document>
