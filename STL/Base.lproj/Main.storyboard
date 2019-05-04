@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="XBt-zy-iPE">
             <objects>
                 <viewController id="4cG-gY-ntz" customClass="DevicesViewController" customModule="STL" customModuleProvider="target" sceneMemberID="viewController">
@@ -62,7 +62,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NyQ-T4-yzl"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="7rT-2k-5qe"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home" id="7rT-2k-5qe"/>
                     <connections>
                         <outlet property="energyConsumed" destination="JSr-9e-sE0" id="iOd-OW-kUf"/>
                     </connections>
@@ -71,7 +71,7 @@
             </objects>
             <point key="canvasLocation" x="-1130.4347826086957" y="176.78571428571428"/>
         </scene>
-        <!--Item-->
+        <!--Graphs-->
         <scene sceneID="JYN-KC-IIY">
             <objects>
                 <viewController id="0Lb-i8-h1u" customClass="GraphViewController" customModule="STL" customModuleProvider="target" sceneMemberID="viewController">
@@ -88,7 +88,7 @@
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Power Consumed by Lights" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSU-Uj-TsH">
-                                <rect key="frame" x="0.0" y="104" width="414" height="64"/>
+                                <rect key="frame" x="0.0" y="104" width="414" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="24"/>
@@ -115,7 +115,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="T2O-2C-JQy"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="uQW-qI-Era"/>
+                    <tabBarItem key="tabBarItem" title="Graphs" id="uQW-qI-Era"/>
                     <connections>
                         <outlet property="barChart" destination="JOp-Ql-1oO" id="wnY-Zl-r6P"/>
                         <outlet property="chartTitle" destination="ZSU-Uj-TsH" id="NzE-Nw-HBo"/>
@@ -123,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iyK-Om-pG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.23188405797103" y="1055.3571428571429"/>
+            <point key="canvasLocation" x="-1161" y="1002"/>
         </scene>
         <!--Line Graph View Controller-->
         <scene sceneID="1Ih-yB-M9V">
@@ -167,9 +167,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zIi-z1-90y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1182.608695652174" y="1001.7857142857142"/>
+            <point key="canvasLocation" x="-112" y="1002"/>
         </scene>
-        <!--Item-->
+        <!--Location Tracking-->
         <scene sceneID="KBD-Kh-QvA">
             <objects>
                 <viewController id="zs3-my-Zm7" customClass="MapViewController" customModule="STL" customModuleProvider="target" sceneMemberID="viewController">
@@ -207,7 +207,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BQ1-cg-tLM"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="QwC-Bw-NgI"/>
+                    <tabBarItem key="tabBarItem" title="Location Tracking" image="Location" id="QwC-Bw-NgI"/>
                     <connections>
                         <outlet property="addLightButton" destination="1UD-Er-6Eg" id="Vow-aj-Y59"/>
                         <outlet property="mapView" destination="cr1-nU-clj" id="zQo-gN-abF"/>
@@ -215,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6yc-LE-fuD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117.3913043478262" y="153.34821428571428"/>
+            <point key="canvasLocation" x="1097" y="1002"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Hj1-UE-mUz">
@@ -231,18 +231,48 @@
                         <segue destination="4cG-gY-ntz" kind="relationship" relationship="viewControllers" id="8W3-7O-tbr"/>
                         <segue destination="0Lb-i8-h1u" kind="relationship" relationship="viewControllers" id="coi-6z-MpQ"/>
                         <segue destination="zs3-my-Zm7" kind="relationship" relationship="viewControllers" id="qHe-pI-ADV"/>
+                        <segue destination="ApH-2d-xYh" kind="relationship" relationship="viewControllers" id="qdT-ZE-DvY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Op-t1-MHw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
+        <!--Settings-->
+        <scene sceneID="YX3-tH-FPG">
+            <objects>
+                <viewController id="ApH-2d-xYh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ivR-9P-uDj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3s-lv-DFH">
+                                <rect key="frame" x="0.0" y="44" width="414" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.49772050540000001" blue="0.85364718260000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="41"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zzh-mI-6fN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Settings" id="6OE-Jt-G22"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d6E-Gh-nbS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1596" y="133"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Home" width="18" height="18"/>
         <image name="Image" width="512" height="512"/>
         <image name="Image-1" width="211.05882263183594" height="209.64706420898438"/>
+        <image name="Location" width="37.5" height="37.5"/>
+        <image name="Settings" width="37.5" height="37.5"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6oj-46-PQa"/>
+        <segue reference="coi-6z-MpQ"/>
     </inferredMetricsTieBreakers>
 </document>

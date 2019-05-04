@@ -22,9 +22,11 @@ class LineGraphViewController: UIViewController {
     @IBAction func backButton(_ sender: Any) {
        self.dismiss(animated: true)
     }
+    
     func backAction() {
         self.navigationController?.popViewController(animated: true)
     }
+    
     func setChartValues(_ count : Int = 20) {
         let values = (0..<count).map { (i) -> ChartDataEntry in
             let val = Double(arc4random_uniform(UInt32(count)) + 3)
@@ -35,5 +37,6 @@ class LineGraphViewController: UIViewController {
         let data = LineChartData(dataSet: set1)
         
         self.lineChartView.data = data
+        self.lineChartView.animate(yAxisDuration: 1.5)
     }
 }
