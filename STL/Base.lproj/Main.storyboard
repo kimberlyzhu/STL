@@ -18,11 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="UUB-MF-Hy9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluecircle" translatesAutoresizingMaskIntoConstraints="NO" id="UUB-MF-Hy9">
                                 <rect key="frame" x="107" y="116" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-5E-5zT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white-circle" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-5E-5zT">
                                 <rect key="frame" x="131" y="141" width="153" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -115,7 +115,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="T2O-2C-JQy"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Graphs" id="uQW-qI-Era"/>
+                    <tabBarItem key="tabBarItem" title="Graphs" image="Graphs" id="uQW-qI-Era"/>
                     <connections>
                         <outlet property="barChart" destination="JOp-Ql-1oO" id="wnY-Zl-r6P"/>
                         <outlet property="chartTitle" destination="ZSU-Uj-TsH" id="NzE-Nw-HBo"/>
@@ -241,7 +241,7 @@
         <!--Settings-->
         <scene sceneID="YX3-tH-FPG">
             <objects>
-                <viewController id="ApH-2d-xYh" sceneMemberID="viewController">
+                <viewController id="ApH-2d-xYh" customClass="SettingsViewController" customModule="STL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ivR-9P-uDj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -266,11 +266,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Graphs" width="19.5" height="19.5"/>
         <image name="Home" width="18" height="18"/>
-        <image name="Image" width="512" height="512"/>
-        <image name="Image-1" width="211.05882263183594" height="209.64706420898438"/>
-        <image name="Location" width="37.5" height="37.5"/>
-        <image name="Settings" width="37.5" height="37.5"/>
+        <image name="Location" width="19.5" height="19.5"/>
+        <image name="Settings" width="18" height="18"/>
+        <image name="bluecircle" width="512" height="512"/>
+        <image name="white-circle" width="211.05882263183594" height="209.64706420898438"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="coi-6z-MpQ"/>

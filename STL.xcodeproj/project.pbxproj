@@ -20,6 +20,7 @@
 		728A460E225C401800F002EB /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A4608225C401700F002EB /* DevicesViewController.swift */; };
 		728A460F225C401800F002EB /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A4609225C401700F002EB /* GraphViewController.swift */; };
 		728A4610225C401800F002EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A460A225C401800F002EB /* AppDelegate.swift */; };
+		72B22529227FA7D10088F545 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B22528227FA7D10088F545 /* SettingsViewController.swift */; };
 		72E9D6AC22657BC700E2614F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72E9D6AB22657BC700E2614F /* GoogleService-Info.plist */; };
 		72F186192277D7440036EE60 /* LineGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F186182277D7440036EE60 /* LineGraphViewController.swift */; };
 		7C5090DF0C2DF128CC3F6E7B /* Pods_STLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056640E71F2427F245904B06 /* Pods_STLTests.framework */; };
@@ -70,6 +71,7 @@
 		728A4608225C401700F002EB /* DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DevicesViewController.swift; path = "../../Smart-Task-Lights/Smart-Task-Lights/Smart-Task-Lights/DevicesViewController.swift"; sourceTree = "<group>"; };
 		728A4609225C401700F002EB /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphViewController.swift; path = "../../Smart-Task-Lights/Smart-Task-Lights/Smart-Task-Lights/GraphViewController.swift"; sourceTree = "<group>"; };
 		728A460A225C401800F002EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../Smart-Task-Lights/Smart-Task-Lights/Smart-Task-Lights/AppDelegate.swift"; sourceTree = "<group>"; };
+		72B22528227FA7D10088F545 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		72E9D6AB22657BC700E2614F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		72F186182277D7440036EE60 /* LineGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphViewController.swift; sourceTree = "<group>"; };
 		980E66964CD928CFBE98BA4B /* Pods-STLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STLUITests.release.xcconfig"; path = "Target Support Files/Pods-STLUITests/Pods-STLUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				728A4608225C401700F002EB /* DevicesViewController.swift */,
 				728A4605225C401700F002EB /* MapViewController.swift */,
 				728A4609225C401700F002EB /* GraphViewController.swift */,
+				72B22528227FA7D10088F545 /* SettingsViewController.swift */,
 				721D5F95226EB0280036A646 /* LightModel.swift */,
 				72F186182277D7440036EE60 /* LineGraphViewController.swift */,
 				728A4606225C401700F002EB /* LightsTableViewController.swift */,
@@ -426,6 +429,7 @@
 				728A460C225C401800F002EB /* LightsTableViewController.swift in Sources */,
 				728A45DA225C3E8E00F002EB /* ViewController.swift in Sources */,
 				72F186192277D7440036EE60 /* LineGraphViewController.swift in Sources */,
+				72B22529227FA7D10088F545 /* SettingsViewController.swift in Sources */,
 				728A460F225C401800F002EB /* GraphViewController.swift in Sources */,
 				721D5F96226EB0280036A646 /* LightModel.swift in Sources */,
 				728A460D225C401800F002EB /* AppStruct.swift in Sources */,
