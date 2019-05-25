@@ -33,7 +33,7 @@ class LineGraphViewController: UIViewController {
             return ChartDataEntry(x: Double(i), y: val)
         }
         
-        let set1 = LineChartDataSet(values: values, label: "DataSet 1")
+        let set1 = LineChartDataSet(values: values, label: "Power in kwh")
         let data = LineChartData(dataSet: set1)
         
         self.lineChartView.data = data
